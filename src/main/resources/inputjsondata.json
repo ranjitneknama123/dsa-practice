@@ -1,0 +1,77 @@
+{
+  "orderId": "ORD-2026-88941",
+  "status": "Processing",
+  "priority": "High",
+  "isGift": false,
+  "discountApplied": null,
+  "totals": {
+    "subtotal": 249.98,
+    "tax": 20.00,
+    "shipping": 0.00,
+    "grandTotal": 269.98
+  },
+  "customer": {
+    "customerId": "CUST-9921",
+    "firstName": "Alex",
+    "lastName": "Morgan",
+    "contacts": {
+      "email": "alex.morgan@example.com",
+      "phone": "+1-555-0199"
+    }
+  },
+  "shippingAddress": {
+    "street": "123 Innovation Way",
+    "suite": "Suite 400",
+    "city": "Tech City",
+    "state": "CA",
+    "postalCode": "94016",
+    "country": "USA",
+    "coordinates": {
+      "latitude": 37.7749,
+      "longitude": -122.4194
+    }
+  },
+  "lineItems": [
+    {
+      "itemId": "PROD-00481",
+      "name": "Wireless Ergonomic Keyboard",
+      "quantity": 1,
+      "price": 149.99,
+      "tags": [
+        "electronics",
+        "office",
+        "ergonomic"
+      ],
+      "dimensions": {
+        "weightLbs": 1.8,
+        "widthInches": 18.2
+      }
+    },
+    {
+      "itemId": "PROD-11029",
+      "name": "Vertical Rechargeable Mouse",
+      "quantity": 1,
+      "price": 99.99,
+      "tags": [
+        "electronics",
+        "accessories"
+      ],
+      "dimensions": {
+        "weightLbs": 0.4,
+        "widthInches": 4.5
+      }
+    }
+  ],
+  "history": [
+    {
+      "timestamp": "2026-08-15T08:30:00Z",
+      "event": "Order Placed",
+      "actor": "Customer"
+    },
+    {
+      "timestamp": "2026-08-15T08:35:00Z",
+      "event": "Payment Authorized",
+      "actor": "System"
+    }
+  ]
+}
